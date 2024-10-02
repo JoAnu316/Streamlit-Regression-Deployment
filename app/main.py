@@ -2,11 +2,11 @@
 
 import streamlit as st
 from streamlit_option_menu import option_menu
-
+from home import home_page
 
 st.set_page_config(
     layout = "wide",
-    initial_slidebar_state = "expanded",
+    initial_sidebar_state= "expanded",
     page_title = "PredictPrice"
 )
 
@@ -18,3 +18,6 @@ with st.sidebar:
         menu_icon="cast",
         default_index= 0
     )
+
+if selected == "Home":
+    home_page()
