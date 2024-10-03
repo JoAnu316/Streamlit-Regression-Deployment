@@ -9,7 +9,7 @@ def home_page():
     <h3 style = "colour:blue;">
     Predicting house prices can be a...
     </h3>
-    """)
+    """, unsafe_allow_html=True)
 
     st.markdown("""
         ### How it works:
