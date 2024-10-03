@@ -3,7 +3,7 @@ import streamlit as st
 def home_page():
     st.info("Welcome to my web page. Let us help you predict the price of your desired house ")
 
-    st.image("house image.jpg", caption = "House Image")
+    st.image("house image.jpg", caption = "House Prediction Prediction", use_column_width=True)
 
     st.markdown("""
     <h3 style = "colour:blue;">
