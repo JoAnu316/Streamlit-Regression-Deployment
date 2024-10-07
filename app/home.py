@@ -1,7 +1,7 @@
 import streamlit as st
 
 def home_page():
-    st.info("Welcome to my web page. Let us help you predict the price of your desired house ")
+    st.title("Welcome to my web page. Let us help you predict the price of your desired house ")
 
     st.image("house image.jpg", caption = "House Prediction Prediction", use_column_width=True)
 
@@ -17,6 +17,7 @@ def home_page():
     """)
 
     st.markdown("""
+        ___
         ### About this project:
     """)
 
